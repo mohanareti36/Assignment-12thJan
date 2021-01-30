@@ -1,0 +1,13 @@
+Protected:
+	Protected members can be accessed within that class or in the class that is deriving it.
+	But protected members can never be accessed by creating an object of the class. 
+	Protected members can be accessed only through inheritance.
+
+Protected Internal:
+	This compound access modifier is a combination of both Protected and Internal. 
+	Class members with this access modifier can be accessed in a derived class through inheritance or by creating an object or base class. 
+	But in a different assembly, this can be accessed only through inheritance and not by creating an object.
+
+Private Protected:
+	This compound access modifier is introduced to overcome the limitation of Protected Internal. 
+	In a private protected access modifier, the derived class from the different assembly cannot access the members which are Private Protected.
